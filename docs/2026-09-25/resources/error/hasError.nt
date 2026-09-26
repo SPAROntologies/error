@@ -1,0 +1,12 @@
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://purl.org/vocab/vann/example> "\n    :my-resource\n        error:hasError \"This resource violates a constraint of the model.\"^^xsd:string .\n    " .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2000/01/rdf-schema#comment> "A description, usually in natural language, of which kind of error results from a resource."@en .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/error/> .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2000/01/rdf-schema#domain> _:n35f6366f7455428da85a75c459d5ca60b1 .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:n35f6366f7455428da85a75c459d5ca60b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n35f6366f7455428da85a75c459d5ca60b1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2009/10/error#hasError> .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2004/02/skos/core#note> "A data property linking a resource that contains a logical error (which results in it belonging to the class owl:Nothing, therefore making the model inconsistent) to a textual description of that error."@en .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2000/01/rdf-schema#label> "has error"@en .
+_:n35f6366f7455428da85a75c459d5ca60b1 <http://www.w3.org/2002/07/owl#cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
