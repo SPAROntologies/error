@@ -1,10 +1,15 @@
-This is a copy - with a related change of the main URL of the ontology - of the Error Ontology (imported by PWO) and previously available at http://www.essepuntato.it/2009/10/error. It has been imported here in SPAR for guaranteeing its long-term sustainability.
+# Error Ontology
 
-The directory `docs` contains all the files related to the ontology, its versions in time, and the related documentations. In particular, it includes:
+The **_Error Ontology_** is an unit test that allow to produce an inconsistent model if a particular (and incorrect) situation happens.
 
-* the `current` directory, where the files of the current version of the ontology are stored;
-* one `yyyy-mm-dd` version directory for each of the versions of the ontology developed.
+**URL:** http://purl.org/spar/error
 
-The `current` directory contains a `.owl` file named after the lowercase ontology acronym, which is the source of the ontology in a particular format between RDF/XML, Turtle, N-triples, or JSON-LD. In addition to this file, the directory includes five other files, named in the same way and with the following extensions specifying each of five different formats: `.xml` (RDF/XML), `.ttl` (Turtle), `.nt` (Ntriple), `.json` (JSON-LD), `.html` (HTML, i.e. the human readable documentation of the ontology). All the images used in the documentation should additionally be included in this `.html` directory.
+**Creators**: [Silvio Peroni](http://orcid.org/0000-0003-0530-4305)
 
-The version directories (i.e. `yyyy-mm-dd`) contains the same kinds of files as those included in the `current` directory, but specific for that particular version. However, the `.owl` file should be present only in the `current` directory.
+**Contributors**: [Sebastian Barzaghi](https://orcid.org/0000-0002-0799-1527)
+
+**License:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+**Cite as:** ...
+
+> This is a copy - with a related change of the main URL of the ontology - of the Error Ontology (imported by PWO) and previously available at http://www.essepuntato.it/2009/10/error. It has been imported here in SPAR for guaranteeing its long-term sustainability.
