@@ -1,27 +1,50 @@
-<http://www.essepuntato.it/2009/10/error/hasError> <http://www.w3.org/2000/01/rdf-schema#comment> "It describes in some way, usually in natural language, which kind of error results from this resource."@en .
-<http://purl.org/spar/error> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/error> <http://purl.org/dc/elements/1.1/title> "The Error Ontology\nMaking contraints on ontology resources"@en .
-<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://purl.org/spar/error> <http://www.w3.org/2000/01/rdf-schema#label> "Error Ontology"@en .
-<http://www.essepuntato.it/2009/10/error/hasError> <http://www.w3.org/2000/01/rdf-schema#domain> _:Nb50f882dfeea48d4a8cff9fb90540911 .
-<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.essepuntato.it/2009/10/error/hasError> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/error> <http://purl.org/dc/elements/1.1/title> "The Error Ontology"@en .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://purl.org/vocab/vann/example> "\n    :my-resource\n        error:hasError \"This resource violates a constraint of the model.\"^^xsd:string .\n    " .
 <http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/error> <http://purl.org/dc/elements/1.1/rights> "This work is distributed under a Creative Commons Attribution Licence (http://creativecommons.org/licenses/by/3.0/)."@en .
-_:Nb50f882dfeea48d4a8cff9fb90540911 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2009/10/error/hasError> .
-<http://purl.org/spar/error> <http://purl.org/dc/elements/1.1/description> "The Error Ontology is an unit test that allow to produce an inconsistent model if a particular (and incorrect) situation happens.\n\nIt works by means of a data property, \"hasError\" that denies its usage for ant resource. In fact, by defining its domain as \"all those resource that don't have any hasErrorDescription assertion\", a resource that asserts having an error makes the ontology inconsistent."@en .
-<http://www.essepuntato.it/2009/10/error/hasError> <http://www.w3.org/2000/01/rdf-schema#label> "has error"@en .
-<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.essepuntato.it/2009/10/error/hasError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/error> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/spar/error> <http://purl.org/dc/elements/1.1/date> "2010-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.essepuntato.it/2009/10/error/hasError> <http://purl.org/dc/elements/1.1/description> "A data property linking a resource that contains a logical error (which results in it belonging to the class owl:Nothing, therefore making the model inconsistent) to a textual description of that error."@en .
-_:Nb50f882dfeea48d4a8cff9fb90540911 <http://www.w3.org/2002/07/owl#cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:Nb50f882dfeea48d4a8cff9fb90540911 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/error> <https://schema.org/keywords> "error descriptions"@en .
+<http://purl.org/spar/error> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/error> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/spar/error"@en .
+<http://purl.org/spar/error> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> <http://www.essepuntato.it/2009/10/error#2010-11-29> .
+<http://purl.org/spar/error> <https://schema.org/includedInDataCatalog> <https://fairsharing.org/> .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2004/02/skos/core#note> "A data property linking a resource that contains a logical error (which results in it belonging to the class owl:Nothing, therefore making the model inconsistent) to a textual description of that error."@en .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2000/01/rdf-schema#label> "has error"@en .
+<http://purl.org/spar/error> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni (https://orcid.org/0000-0003-0530-4305)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/error> <http://purl.org/dc/terms/created> "2010-11-29" .
 <http://purl.org/spar/error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-
+<http://purl.org/spar/error> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+<http://purl.org/spar/error> <http://purl.org/ontology/bibo/doi> "TBA" .
+<http://purl.org/spar/error> <http://purl.org/vocab/vann/changes> "\n* **v1.0.1**: \nAdded new documentation, including annotation properties (e.g., `bibo:doi`, `schema:codeRepository`, etc.), term properties (e.g., `vann:example`, `vs:term_status`, etc.), exemplary competency questions with their respective SPARQL queries, and a Grafoo diagram.\n    "@en .
+_:n35f6366f7455428da85a75c459d5ca60b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/error> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.essepuntato.it/2009/10/error#2026-09-25> .
+<http://purl.org/spar/error> <http://www.w3.org/2002/07/owl#priorVersion> <http://www.essepuntato.it/2009/10/error#2010-11-29> .
+<http://purl.org/spar/error> <http://xmlns.com/foaf/0.1/logo> <https://github.com/SPAROntologies/error/blob/master/spar.png> .
+<http://purl.org/spar/error> <http://purl.org/dc/terms/source> <https://github.com/SPAROntologies/error/blob/master/docs/cq.md> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/error> <https://schema.org/keywords> "errors"@en .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2000/01/rdf-schema#domain> _:n35f6366f7455428da85a75c459d5ca60b1 .
+<http://purl.org/spar/error> <https://schema.org/image> <https://github.com/SPAROntologies/error/blob/master/docs/current/error.png> .
+<http://purl.org/spar/error> <https://schema.org/codeRepository> <https://github.com/SPAROntologies/error> .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2000/01/rdf-schema#comment> "A description, usually in natural language, of which kind of error results from a resource."@en .
+_:n35f6366f7455428da85a75c459d5ca60b1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2009/10/error#hasError> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/error> <http://purl.org/dc/terms/issued> "2010-11-29" .
+<http://purl.org/spar/error> <https://schema.org/keywords> "semantic publishing"@en .
+<http://purl.org/spar/error> <http://purl.org/dc/elements/1.1/date> "2026-09-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:n35f6366f7455428da85a75c459d5ca60b1 <http://www.w3.org/2002/07/owl#cardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/error> <http://purl.org/dc/terms/modified> "2026-09-25" .
+<http://purl.org/spar/error> <http://purl.org/dc/elements/1.1/contributor> "Sebastian Barzaghi (https://orcid.org/0000-0002-0799-1527)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/spar/error> <http://purl.org/vocab/vann/preferredNamespacePrefix> "error"@en .
+<http://www.essepuntato.it/2009/10/error#hasError> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/error/> .
+<http://purl.org/spar/error> <http://purl.org/dc/elements/1.1/description> "\nThe **_Error Ontology_** is an unit test that allow to produce an inconsistent model if a particular (and incorrect) situation happens.\n\n![The main architecture of the Error Ontology.](error.png)\n\nIt works by means of a data property `error:hasError` that denies its usage for ant resource. \nIn fact, by defining its domain as \"all those resource that do not have any `hasErrorDescription` assertion\", a resource that asserts having an error makes the ontology inconsistent.\n\n## Examples of use\n\nIn the following subsections, we introduce some examples to showcase how to use the Error Ontology. \n\nThe prefixes that are used in all the examples provided below are defined as follows:\n\n    @prefix : <http://www.sparontologies.net/example/> .\n    @prefix error: <http://www.essepuntato.it/2009/10/error#> .\n    @prefix owl: <http://www.w3.org/2002/07/owl#> .\n    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n### Flagging an erroneous resource\n\nA resource can be directly marked as erroneous by asserting a description of its error. \nSince no resource can have any `error:hasError` assertion, a reasoner will classify it as a member of `owl:Nothing`, making the model inconsistent.\n\n    :my-article a fabio:Article ;\n        error:hasError \"The article has two different publication dates.\"^^xsd:string .\n\n### Defining a forbidden situation through a class axiom\n\nAn incorrect situation can be modelled as a class whose members are automatically associated with an error description. \nAny individual that falls in such a class makes the model inconsistent, and the error description explains why.\n\n    :DraftAndPublishedDocument\n        owl:equivalentClass [ a owl:Class ;\n            owl:intersectionOf ( fabio:Manuscript fabio:JournalArticle ) ] ;\n        rdfs:subClassOf [ a owl:Restriction ;\n            owl:onProperty error:hasError ;\n            owl:hasValue \"A document cannot be a draft and published at the same time.\"^^xsd:string ] .\n\n    :my-document a fabio:Manuscript , \n        fabio:JournalArticle .\n\n## Competency Questions\n\nThe Error Ontology can be used to produce an inconsistent model if a particular (and incorrect) situation happens.\nIn the following subsections, some competency questions are introduced together with their respective SPARQL queries.\n\nThe prefixes that are used in all the SPARQL queries provided below are defined as follows:\n\n    PREFIX error: <http://www.essepuntato.it/2009/10/error#>\n    PREFIX owl: <http://www.w3.org/2002/07/owl#>\n    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\n### CQ1\n\nWhich resources are explicitly asserted to have an error, and what is the description of that error?\n\n    SELECT ?resource ?description WHERE {\n        ?resource error:hasError ?description .\n    }\n\n### CQ2\n\nWhich classes describe a forbidden situation, and what is the error description associated with their members?\n\n    SELECT ?class ?description WHERE {\n        ?class rdfs:subClassOf ?restriction .\n        ?restriction a owl:Restriction ;\n            owl:onProperty error:hasError ;\n            owl:hasValue ?description .\n    }\n\n### CQ3\n\nDoes the dataset contain at least one resource with an error?\n\n    ASK {\n        ?resource error:hasError ?description .\n    }\n\n"@en .
+<http://purl.org/spar/error> <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/published> .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/error> <http://purl.org/dc/terms/publisher> <https://ror.org/00wb4mk85> .
+<http://purl.org/spar/error> <http://purl.org/dc/terms/bibliographicCitation> "Ciccarese, P., & Peroni, S. (2014). The Collections Ontology: creating and handling collections in OWL 2 DL frameworks. Semantic Web, 5(6), 515-529. DOI: https://doi.org/10.3233/SW-130121." .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
