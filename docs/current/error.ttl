@@ -26,7 +26,7 @@ dc:title a owl:AnnotationProperty .
     rdfs:label "Error Ontology"@en ;
     dc:contributor "Sebastian Barzaghi (https://orcid.org/0000-0002-0799-1527)"^^xsd:string ;
     dc:creator "Silvio Peroni (https://orcid.org/0000-0003-0530-4305)"^^xsd:string ;
-    dc:date "2026-09-25"^^xsd:date ;
+    dc:date "2026-10-05"^^xsd:date ;
     dc:description """
 The **_Error Ontology_** is an unit test that allow to produce an inconsistent model if a particular (and incorrect) situation happens.
 
@@ -43,6 +43,7 @@ The prefixes that are used in all the examples provided below are defined as fol
 
     @prefix : <http://www.sparontologies.net/example/> .
     @prefix error: <http://www.essepuntato.it/2009/10/error#> .
+    @prefix fabio: <http://purl.org/spar/fabio/>
     @prefix owl: <http://www.w3.org/2002/07/owl#> .
     @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
     @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -114,26 +115,27 @@ Does the dataset contain at least one resource with an error?
     dcterms:created "2010-11-29" ;
     dcterms:issued "2010-11-29" ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-25" ;
+    dcterms:modified "2026-10-05" ;
     dcterms:publisher <https://ror.org/00wb4mk85> ;
     dcterms:source <https://github.com/SPAROntologies/error/blob/master/docs/cq.md> ;
     bibo:doi "TBA" ;
     bibo:status <http://purl.org/ontology/bibo/status/published> ;
-    vann:changes """
-* **v1.0.1**: 
-Added new documentation, including annotation properties (e.g., `bibo:doi`, `schema:codeRepository`, etc.), term properties (e.g., `vann:example`, `vs:term_status`, etc.), exemplary competency questions with their respective SPARQL queries, and a Grafoo diagram.
-    """@en ;
+    vann:changes <https://github.com/SPAROntologies/error/blob/master/CHANGELOG.md> ;
     vann:preferredNamespacePrefix "error"@en ;
     vann:preferredNamespaceUri "http://purl.org/spar/error"@en ;
-    owl:backwardCompatibleWith error:2010-11-29 ;
-    owl:priorVersion error:2010-11-29 ;
-    owl:versionIRI error:2026-09-25 ;
-    owl:versionInfo "1.0.1"^^xsd:string ;
-    foaf:logo <https://github.com/SPAROntologies/error/blob/master/spar.png> ;
+    owl:backwardCompatibleWith error:2026-09-25 ;
+    owl:priorVersion error:2026-09-25 ;
+    owl:versionIRI error:2026-10-05 ;
+    owl:versionInfo "1.0.2"^^xsd:string ;
+    foaf:logo <https://github.com/SPAROntologies/sparontologies.github.io/blob/master/static/img/spar/spar-logo.png> ;
     schema:codeRepository <https://github.com/SPAROntologies/error> ;
     schema:image <https://github.com/SPAROntologies/error/blob/master/docs/current/error.png> ;
     schema:includedInDataCatalog <https://fairsharing.org/> ;
-    schema:keywords "error descriptions"@en,
+    dc:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+    schema:keywords 
+        "SPAR Ontologies"@en ,
+        "Semantic Publishing and Referencing Ontologies"@en ,
+        "error descriptions"@en,
         "errors"@en,
         "semantic publishing"@en .
 
