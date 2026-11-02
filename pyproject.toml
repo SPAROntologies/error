@@ -1,11 +1,7 @@
 [project]
 name = "error"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.2"
+description = "The Error Ontology is an unit test that allow to produce an inconsistent model if a particular (and incorrect) situation happens."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "codespell>=2.4.3",
-    "rdflib>=7.6.0",
-    "requests>=2.34.2",
-]
+dependencies = []
