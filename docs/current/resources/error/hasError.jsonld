@@ -17,7 +17,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "_:n35f6366f7455428da85a75c459d5ca60b1"
+        "@id": "_:n8d3142ec1f054b1e9534a91e93f6a11db1"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -44,12 +44,12 @@
     "http://www.w3.org/2004/02/skos/core#note": [
       {
         "@language": "en",
-        "@value": "A data property linking a resource that contains a logical error (which results in it belonging to the class owl:Nothing, therefore making the model inconsistent) to a textual description of that error."
+        "@value": "A data property linking a resource that contains a logical error (which results in it belonging to the class `owl:Nothing`, therefore making the model inconsistent) to a textual description of that error."
       }
     ]
   },
   {
-    "@id": "_:n35f6366f7455428da85a75c459d5ca60b1",
+    "@id": "_:n8d3142ec1f054b1e9534a91e93f6a11db1",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
