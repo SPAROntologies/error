@@ -14,8 +14,8 @@ abstract: The Error Ontology is an unit test that allow to produce an inconsiste
 - errors
 - semantic publishing
 license: CC-BY-4.0
-version: 1.0.2
-date-released: '2026-10-05'
+version: 1.0.3
+date-released: '2026-11-17'
 preferred-citation:
     type: article
     authors:
