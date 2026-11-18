@@ -1,6 +1,18 @@
 [
   {
-    "@id": "http://purl.org/dc/elements/1.1/description",
+    "@id": "http://purl.org/dc/elements/1.1/language",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/contributor",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status",
     "@type": [
       "http://www.w3.org/2002/07/owl#AnnotationProperty"
     ]
@@ -23,12 +35,12 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "_:n35a5d7197da44e2bb87639fb7ef1476fb1"
+        "@id": "_:ndb32a9816e834574abfa8ac5eb20f7eeb1"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://purl.org/spar/error/"
+        "@id": "http://purl.org/spar/error"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -55,7 +67,7 @@
     ]
   },
   {
-    "@id": "_:n35a5d7197da44e2bb87639fb7ef1476fb1",
+    "@id": "_:ndb32a9816e834574abfa8ac5eb20f7eeb1",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -72,7 +84,49 @@
     ]
   },
   {
+    "@id": "http://purl.org/dc/terms/issued",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://schema.org/image",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/vocab/vann/changes",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/vocab/vann/preferredNamespacePrefix",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
     "@id": "http://purl.org/dc/elements/1.1/title",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/publisher",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#versionInfo",
     "@type": [
       "http://www.w3.org/2002/07/owl#AnnotationProperty"
     ]
@@ -139,7 +193,7 @@
     ],
     "http://purl.org/dc/terms/modified": [
       {
-        "@value": "2026-10-05"
+        "@value": "2026-11-17"
       }
     ],
     "http://purl.org/dc/terms/publisher": [
@@ -187,23 +241,23 @@
     ],
     "http://www.w3.org/2002/07/owl#backwardCompatibleWith": [
       {
-        "@id": "http://www.essepuntato.it/2009/10/error#2026-09-25"
+        "@id": "http://www.essepuntato.it/2009/10/error#2026-10-05"
       }
     ],
     "http://www.w3.org/2002/07/owl#priorVersion": [
       {
-        "@id": "http://www.essepuntato.it/2009/10/error#2026-09-25"
+        "@id": "http://www.essepuntato.it/2009/10/error#2026-10-05"
       }
     ],
     "http://www.w3.org/2002/07/owl#versionIRI": [
       {
-        "@id": "http://www.essepuntato.it/2009/10/error#2026-10-05"
+        "@id": "http://www.essepuntato.it/2009/10/error#2026-11-17"
       }
     ],
     "http://www.w3.org/2002/07/owl#versionInfo": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#string",
-        "@value": "1.0.2"
+        "@value": "1.0.3"
       }
     ],
     "http://xmlns.com/foaf/0.1/logo": [
@@ -233,7 +287,7 @@
       },
       {
         "@language": "en",
-        "@value": "Semantic Publishing and Referencing Ontologies"
+        "@value": "OWL ontology"
       },
       {
         "@language": "en",
@@ -250,13 +304,67 @@
     ]
   },
   {
-    "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "@id": "http://purl.org/dc/elements/1.1/date",
     "@type": [
       "http://www.w3.org/2002/07/owl#AnnotationProperty"
     ]
   },
   {
-    "@id": "http://purl.org/dc/elements/1.1/date",
+    "@id": "http://purl.org/vocab/vann/preferredNamespaceUri",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/logo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://schema.org/codeRepository",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/modified",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/created",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#note",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://schema.org/includedInDataCatalog",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/rights",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/source",
     "@type": [
       "http://www.w3.org/2002/07/owl#AnnotationProperty"
     ]
@@ -268,7 +376,19 @@
     ]
   },
   {
-    "@id": "http://www.w3.org/2002/07/owl#versionInfo",
+    "@id": "http://purl.org/vocab/vann/example",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/doi",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/elements/1.1/description",
     "@type": [
       "http://www.w3.org/2002/07/owl#AnnotationProperty"
     ]
@@ -280,7 +400,19 @@
     ]
   },
   {
-    "@id": "http://purl.org/dc/elements/1.1/rights",
+    "@id": "http://purl.org/dc/terms/bibliographicCitation",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "https://schema.org/keywords",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/license",
     "@type": [
       "http://www.w3.org/2002/07/owl#AnnotationProperty"
     ]
