@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 title: The Error Ontology
 message: >-
-If you use this software, please cite it using the
-metadata from this file.
+  If you use this software, please cite it using the
+  metadata from this file.
 type: software
 authors:
 - given-names: Silvio
@@ -14,8 +14,8 @@ abstract: The Error Ontology is an unit test that allow to produce an inconsiste
 - errors
 - semantic publishing
 license: CC-BY-4.0
-version: 1.0.2
-date-released: '2026-10-05'
+version: 1.0.3
+date-released: '2026-11-17'
 preferred-citation:
     type: article
     authors:

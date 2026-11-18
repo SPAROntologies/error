@@ -17,7 +17,7 @@ error:hasError a owl:DatatypeProperty ;
     rdfs:domain [ a owl:Restriction ;
             owl:cardinality "0"^^xsd:nonNegativeInteger ;
             owl:onProperty error:hasError ] ;
-    rdfs:isDefinedBy <http://purl.org/spar/error/> ;
+    rdfs:isDefinedBy <http://purl.org/spar/error> ;
     rdfs:range xsd:string ;
     vs:term_status reg:statusStable ;
     skos:note "A data property linking a resource that contains a logical error (which results in it belonging to the class `owl:Nothing`, therefore making the model inconsistent) to a textual description of that error."@en .
